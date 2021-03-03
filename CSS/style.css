@@ -1,4 +1,84 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--accent-color);
+}
+.logo-second-part {
+  color: black;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--title-text-color);
+}
+.mail:focus,
+.mail:hover {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+/* Hero section */
+.hero-section {
+  background-color: #2f303a;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+.hero-section-title {
+  color: var(--primary-white-color);
+}
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Портфолио */
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+/* Футер */
+footer {
+  background-color: #2f303a;
+}
+.logo-second-part-footer {
+  color: var(--primary-white-color);
 }
