@@ -113,6 +113,9 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+.portfolio-title {
+  display: none;
+}
 
 .product-name {
   font-weight: 700;
